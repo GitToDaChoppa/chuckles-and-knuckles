@@ -51,7 +51,7 @@
 </div>
 
 <style>
-☺♂◘
+
     .the-joke {
         font-family: 'East Sea Dokdo', cursive !important;
         font-size: 3rem;
