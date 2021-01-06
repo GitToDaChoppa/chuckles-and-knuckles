@@ -1,5 +1,5 @@
 # Svelte Norris
-## by The Brandolorian
+**by The Brandolorian**
 \
 \
 \
