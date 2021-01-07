@@ -37,17 +37,17 @@
 		}
 
 
+@media only screen and (min-width:660px) and (min-height: 700px) {
+	body {
+		overflow: hidden;
+	}
+}
 
 		@media only screen and (max-width: 600px) {
 		:global(*) {
 			font-size: 12px;
 		}
 	}
-
-	body {
-		overflow: hidden;
-	}
-
 
     main {
         margin: 0;
