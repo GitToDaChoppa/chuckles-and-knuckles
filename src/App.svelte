@@ -1,34 +1,33 @@
 <script>
-	import Joke from './Joke.svelte'
 	import Footer from "./Footer.svelte"
 	import Hero from "./Hero.svelte"
-	import NextButton from "./NextButton.svelte"
+	import JokeSection from "./JokeSection.svelte"
 
-	let nextJoke
+
 
 </script>
 
-<body>
-
-	<Hero />
-
 	<main>
-
-			<div class="columns">
-				<div class="column">
-					<Joke bind:joke={nextJoke} />
-				</div>
-			</div>
-
+		<Hero />
+		<JokeSection />
+		<Footer />
 	</main>
 
-	<NextButton on:click={() => nextJoke.getJoke()} />
 
-	<Footer />
-
-</body>
 
 <style>
+main {
+	 height: 100vh;
+	 min-height: 100vh;
+ }
+
+
+:global(footer) {
+	bottom: 0;
+	align-self: end;
+}
+</style>
+<!-- <style>
 
 		:global(*) {
 			box-sizing: border-box;
@@ -53,10 +52,10 @@
         margin: 0;
 		padding: 8px;
 		display: flex;
-		height: 50vh;
+		/* height: 50vh; */
 		flex-direction: column;
-		flex-wrap: wrap;
+		/* flex-wrap: wrap; */
 		align-items: center;
-		justify-content: center;
+		justify-content: space-between;
     }
-</style>
+</style> -->

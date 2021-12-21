@@ -11,13 +11,6 @@
             <h2 class="subtitle">
                 the joke machine
             </h2>
-            <h3>by Brandon Scrushy</h3>
         </div>
     </div>
 </section>
-
-<style>
-    h3 {
-        display: hidden !important;
-    }
-</style>

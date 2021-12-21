@@ -2,7 +2,6 @@
     import {Shadow} from 'svelte-loading-spinners'
     import {onMount} from 'svelte'
 
-    let query = ''
     let result
 
     export const joke = {
