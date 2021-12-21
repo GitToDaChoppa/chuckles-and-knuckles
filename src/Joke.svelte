@@ -29,7 +29,7 @@
 <div>
         {#if result===undefined }
 
-            <p>Chuck Norris visited the site and... it broke. (This is not a joke, it's an error)</p>
+            <p>Chuck Norris visited the site and... it broke. (This is not a joke, it's an error) 😔</p>
 
         {:else}
 

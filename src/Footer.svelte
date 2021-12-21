@@ -5,12 +5,12 @@
 <footer class="footer has-background-dark is-bold">
     <div class="content has-text-centered has-text-white-ter">
         <p class="is-size-6">
-            <a href="/">Svelte Norris</a> by <a href="https://www.thebrandolorian.com" >The Brandolorian</a>
+            <a href="/">Svelte Norris</a> by <a href="https://www.brandonscrushy.com" >Brandon Scrushy</a>
         </p>
         <p>
-            Made with <a href="https://svelte.dev"> Svelte </a>, the javascript framework. Jokes are from the <a href="https://api.chucknorris.io/">Chuck Norris Jokes API</a>
+            Made with <a href="https://svelte.dev"> Svelte</a>. Jokes are from the <a href="https://api.chucknorris.io/">Chuck Norris Jokes API</a>
         </p>
-        <img class="bounce" src="https://i.imgur.com/1KdXY73.png" alt="brando is happy" width="64px"/>
+        <img class="bounce" src="https://res.cloudinary.com/bokbok/image/upload/v1636490946/brando/brando-2022_j3g7zm.png" alt="brando is happy" width="64px"/>
     </div>
 </footer>
 
