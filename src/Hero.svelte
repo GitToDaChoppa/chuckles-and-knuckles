@@ -18,6 +18,6 @@
 
 <style>
     h3 {
-        display: hidden;
+        display: hidden !important;
     }
 </style>
