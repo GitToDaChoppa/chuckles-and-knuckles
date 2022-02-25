@@ -10,7 +10,6 @@
         <p>
             Made with <a href="https://svelte.dev"> Svelte</a>. Jokes are from the <a href="https://api.chucknorris.io/">Chuck Norris Jokes API</a>
         </p>
-        <img class="bounce" src="https://res.cloudinary.com/bokbok/image/upload/v1636490946/brando/brando-2022_j3g7zm.png" alt="brando is happy" width="64px"/>
     </div>
 </footer>
 
@@ -34,7 +33,7 @@
         font-size: 95%;
         text-decoration: none !important;
     }
-
+/* 
     .bounce {
         animation: brando-bounce 1s ease infinite alternate;
     }
@@ -46,5 +45,5 @@
         100% {
             transform: translateY(16px) scale(1.25)
         }
-    }
+    } */
 </style>
