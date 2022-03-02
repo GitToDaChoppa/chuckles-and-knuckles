@@ -1,0 +1,27 @@
+{
+  "folders": [
+    {
+      "path": ".."
+    }
+  ],
+  "settings": {
+    "workbench.colorCustomizations": {
+      "editor.hoverHighlightBackground": "#FF80BF55",
+      "editor.inactiveSelectionBackground": "#9580ff77",
+      "editor.lineHighlightBackground": "#1073cf2d",
+      "editor.lineHighlightBorder": "#9fced11f",
+      "editor.selectionBackground": "#FF80BF55",
+      "editor.selectionHighlightBackground": "#FF80BF88",
+      "editorBracketHighlight.unexpectedBracket.foreground": "#ff9580d6",
+      "editorCursor.background": "#FF80BF",
+      "editorCursor.foreground": "#FF80BF",
+      "editorLineNumber.activeForeground": "#FF80BF",
+      "editorLineNumber.foreground": "#454158",
+      "editorOverviewRuler.bracketMatchForeground": "#FF80BF",
+      "editorOverviewRuler.selectionHighlightForeground": "#9580FF",
+      "gitlens.lineHighlightBackgroundColor": "#FF80BF",
+      "selection.backgroundColor": "#FF80BF",
+      "editorBracketMatch.border": "#ffff80"
+    }
+  }
+}

@@ -54,7 +54,7 @@
 
     .the-joke {
         font-family: 'East Sea Dokdo', cursive !important;
-        font-size: 3rem;
+        font-size: 3.25em;
     }
     p {
         text-align: center;
