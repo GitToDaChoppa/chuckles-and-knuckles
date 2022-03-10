@@ -1,5 +1,5 @@
 # Chuckles & Knuckles
-## Chuck Norris Jokes
+**Never-Ending Chuck Norris Jokes**
 **by Brandon M. Scrushy**
 \
 \
