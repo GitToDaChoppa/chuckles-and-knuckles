@@ -13,50 +13,36 @@
 	<Hero />
 
 	<main>
-
-			<div class="columns">
-				<div class="column">
-					<Joke bind:joke={nextJoke} />
-				</div>
-			</div>
-
+                        <div class="level">
+                          <div class="container px-4 py-2"></div>
+                                      <Joke bind:joke={nextJoke} />
+                                    </div>
 	</main>
+          	<NextButton on:click={() => nextJoke.getJoke()} />
 
-	<NextButton on:click={() => nextJoke.getJoke()} />
 
-	<Footer />
+	<!-- <Footer /> -->
 
 </body>
 
 <style>
 
 		:global(*) {
-			box-sizing: border-box;
+			/* box-sizing: border-box; */
 			font-family: 'Roboto', sans-serif;
 			font-size: 16px;
 		}
 
 
-@media only screen and (min-width:660px) and (min-height: 700px) {
-	body {
-		overflow: hidden;
-	}
-}
-
-		@media only screen and (max-width: 600px) {
-		:global(*) {
-			font-size: 12px;
-		}
-	}
-
     main {
-        margin: 0;
-		padding: 8px;
+    margin: 0;
+		padding: 2em 4em 2em 4em;
 		display: flex;
-		height: 50vh;
+		height: 69vh;
 		flex-direction: column;
 		flex-wrap: wrap;
 		align-items: center;
 		justify-content: center;
+    overflow-y: hidden;
     }
 </style>

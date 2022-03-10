@@ -8,7 +8,7 @@
             <a href="/">Svelte Norris</a> by <a href="https://www.brandonscrushy.com" >Brandon Scrushy</a>
         </p>
         <p>
-            Made with <a href="https://svelte.dev"> Svelte</a>. Jokes are from the <a href="https://api.chucknorris.io/">Chuck Norris Jokes API</a>
+            Made with <a href="https://svelte.dev"> Svelte</a> and the <a href="https://api.chucknorris.io/">Chuck Norris Jokes API</a>
         </p>
     </div>
 </footer>

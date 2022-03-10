@@ -2,16 +2,12 @@
 
 </script>
 
-<section class="hero is-small is-danger is-bold">
+<section class="hero is-small is-danger is-bold mb-2">
     <div class="hero-body">
         <div class="container has-text-centered">
             <h1 class="title is-size-1 has-text-white">
-                Svelte Norris
+                CHUCKLES & KNUCKLES
             </h1>
-            <h2 class="subtitle">
-                the joke machine
-            </h2>
-            <h3>by Brandon Scrushy</h3>
         </div>
     </div>
 </section>
@@ -19,5 +15,6 @@
 <style>
     h3 {
         display: hidden !important;
+        line-height: 0;
     }
 </style>
